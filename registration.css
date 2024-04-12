@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    padding: 20px 30px;
+    width: 550px;
+    height: 650px;
+    backdrop-filter: blur(800px);
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 4px rgb(40, 115, 117);;
+}
+
+.box .form {
+    padding: 2px 2px;
+}
+
+.box .form h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.box .form form{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.box .form form .inputbox input{
+    padding:  10px 15px;
+    border: none;
+    outline: none;
+    background: none;
+    text-align: justify;
+    border-bottom: 2px ridge rgb(45, 45, 79) ;
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+.box .form form .inputbox #span1{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 108px;
+}
+
+.box .form form .inputbox #span2{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 113px;
+}
+
+.box .form form .inputbox #span3{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 123px;
+}
+
+.box .form form .inputbox #span4{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 155px;
+}
+
+.box .form form .inputbox #span5{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 89px;
+}
+
+.box .form form .inputbox #span6{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 91px;
+}
+
+.box .form form .inputbox #span7{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 90px;
+}
+
+.box .form form .inputbox #span8{
+    position: relative;
+    color: hsla(42, 80%, 54%, 0.75);
+    margin-right: 23px;
+}
+
+
+#submit{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 80px;
+    padding: 10px 18px;
+    color: bisque;
+    border: none;
+    background-color: rgb(45, 45, 79);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#login {
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    color: bisque;
+    border: none;
+    background-color: rgb(45, 45, 79); 
+    font-size: 18px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <h1><b>Sign Up</b></h1>
+            <form action="registrationDetails.php" method="post">
+                <div class="inputbox">
+                    <span id="span1"><b>First Name</b></span>
+                    <input type="text" value="" id="fname" name="fname" required>
+                </div>
+                <div class="inputbox">
+                    <span id="span2"><b>Last Name</b></span>
+                    <input type="text" value="" id="lname" name="lname" required>
+                </div>
+                <div class="inputbox">
+                    <span id="span3"><b>Username</b></span>
+                    <input type="text" value="" id="username" name="username" required>
+                </div>
+                <div class="inputbox">
+                    <span id="span4"><b>Phone</b></span>
+                    <input type="tel" maxlength="10" value="" id="phone" name="phone" required> 
+                </div><div class="inputbox">
+                    <span id="span5"><b>Email Address</b></span>
+                    <input type="email" value="" id="email" name="email" required>
+                </div>
+                <div class="inputbox">
+                    <span id="span6"><b>Date of Birth</b></span>
+                    <input type="date" value="" id="dob" name="dob" required>   
+                </div>
+                <div class="inputbox">
+                    <span id="span7"><b> New Password</b></span>
+                    <input type="password" minlength="8" value="" id="password" name="password" required>
+                </div>
+                <div class="inputbox">
+                    <span id="span8"><b>Confirm New Password</b></span>
+                    <input type="password" minlength="8" value="" id="password1" name="password1" required>
+                </div>
+                <input type="submit" value="Submit" id="submit">    
+                <a href="#" class="login">
+                    <input type="button" id="login"  value="Login" onclick="location.href='login.html'"/>
+                </a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
